@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+form input, form button {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.tabela-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+  border: 2px solid #007acc;
+}
+
+thead th {
+  background-color: #007acc;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #007acc;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #007acc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.right {
+  text-align: right;
+}
+
+tbody td:not(.right) {
+  text-align: left;
+}
+
+.legenda {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+  color: #333;
+}

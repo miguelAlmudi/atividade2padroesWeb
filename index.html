@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disciplinas do Curso de Computação</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Lista de Disciplinas</h2>
+
+  <form id="form-disciplina">
+    <h3>Adicionar nova disciplina</h3>
+    <input type="text" id="codigo" placeholder="Código" required />
+    <input type="text" id="nome" placeholder="Nome" required />
+    <input type="number" id="carga" placeholder="Carga Horária" required />
+    <input type="number" id="periodo" placeholder="Período" required />
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <div class="tabela-container">
+    <table id="tabela-disciplinas">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nome</th>
+          <th class="right">Carga Horária</th>
+          <th class="right">Período</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="legenda">Tabela 1: Disciplinas obrigatórias e optativas do curso de Engenharia de Computação</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
